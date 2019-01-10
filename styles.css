@@ -1,0 +1,1176 @@
+body{
+  background-color: #909090;
+  width: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-family: 'Rajdhani', sans-serif;
+  font-size:2vw;
+  margin: .5vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Rajdhani', sans-serif;
+  margin: .5vw;
+}
+
+h2{
+  font-size: 2.5vw;
+}
+
+header{
+  background-image: url("images/wood3.jpg");
+  width: cover;
+  background-size: cover;
+  position:relative;
+  z-index: 1;
+}
+
+#headerText{
+  text-align: right;
+  font-style: oblique;
+  font-weight: bold;
+  color: #a60030;
+  text-shadow: 2px 2px #767676;
+}
+
+/*Navigation Menu */
+div.navigation-menu-button {
+  /* hides the nav menu on larger view ports */
+  display:none;
+  float:right;
+}
+
+nav {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+
+li {
+  display:inline-block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+}
+
+.sidenav a:hover{
+  text-decoration: none;
+}
+
+.sidenav a{
+  color: #a60030;
+  font-weight: bold;
+}
+
+/* Hides the close button on the larger viewports */
+.closebtn{
+  visibility: hidden;
+}
+
+.sidenav a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* Logo in the Header */
+#logo{
+  margin-left: 2vw;
+}
+
+.pageTitle{
+  font-weight: bold;
+  color: #a60030;
+  text-shadow: 2px 2px #767676;
+  font-size: 4vw;
+  position: static;
+  text-align: center;
+}
+
+/* Footer Section */
+footer{
+  background-image: url("images/wood3.jpg");
+  background-color: #676767;
+  width: cover;
+  background-size: cover;
+  font-family: 'Rajdhani', sans-serif;
+  color: #730021;
+  z-index:1;
+  position:static;
+}
+
+#logo2{
+  margin-top: 5vw;
+}
+
+/* Footer a links */
+a:link {
+	text-decoration: none;
+	color: #730021;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* #ZOOM This controls the pictures moving when
+mouseover in the photo gallaries on the bin and creeper page */
+.zoom{
+  position: relative;
+  overflow: hidden;
+}
+.zoom:hover img{
+  transform: scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.zoom img{
+  transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+    -moz-transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.zoom{
+  transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+/* BUTTONS Styling on the index and product page */
+.btn-primary {
+  background-color: #ccc;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom,#40121f 0,#730021 100%);
+  border-color: white;
+  font-size: 1.5vw;
+  background-repeat: repeat-y;
+}
+.btn.primary:visited {
+  color:white;
+}
+
+.btn-primary:hover{
+  border-color: #ccc !important;
+}
+
+
+/* INDEX PAGE */
+
+/* Carousel Index Page */
+#CarouselBack{
+  margin:0;
+  padding: 0;
+  background-image: linear-gradient(to bottom,transparent 50%,#fffdd0 100%);
+  width: cover;
+  background-size: cover;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 45%;
+    margin: auto;
+}
+
+.carousel-control.left{
+  background-image: none;
+}
+.carousel-control.right{
+  background-image: none;
+}
+
+/* Midsection that holds the information on Bulk Bins, Creep Feeders, and the Troughs */
+/* midSection is also used on Product page */
+#midSection{
+  background-color: #730021;
+  margin-top: 1vw;
+  padding-bottom: 2vw;
+}
+#part1{
+  color: white;
+}
+
+#part2{
+  color: white;
+}
+
+#part2 img{
+  margin-left: 2vw;
+}
+
+#part3{
+  color:white;
+}
+
+/* MFA and Tennessee Coop logos */
+#partners img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+#partners {
+  margin: 2vw;
+}
+
+/* PRODUCT PAGE */
+
+/* Carousel on Products Page*/
+#productCarousel-inner > .item > img,
+  #productCarousel-inner > .item > a > img {
+    width:45%;
+    margin: auto;
+}
+
+/* CREEPER PAGE*/
+#CreeperInfo p{
+  text-align: left;
+  vertical-align: middle;
+}
+
+.productBackground{
+  position: relative;
+  height:auto;
+  padding: 1vw;
+  /* margin-top: -2vw; */
+  z-index:0;
+  background-image: url("images/red_barn_hay2.png");
+  height:100%;
+  background-size: cover;
+  /* Makes the background image fixed to the div */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#CreeperSection{
+  margin: 1vw;
+  position: static;
+  z-index:1;
+  color:black;
+}
+
+/* BIN PAGE */
+#binWrapper{
+  position: relative;
+  height:auto;
+  padding: 1vw;
+  padding-bottom: 4vw;
+  margin-top: -1vw;
+  z-index:0;
+  background-image: url("images/red_barn_hay2.png");
+  height:100%;
+  background-size: cover;
+  /* Makes the background image fixed to the div */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#binListExpand{
+  position: relative;
+  margin-bottom: 1vw;
+  padding-bottom: 4vw;
+  height: 41vw;
+  width: 20vw;
+  z-index: 1;
+}
+
+.LookAtMe{
+  display: none;
+}
+
+#binInfo{
+  padding-bottom: 1vw;
+  margin-bottom: 1vw;
+  width: 100%;
+}
+
+#axleList, #skidList{
+  clear:left;
+  float: left;
+}
+
+#axleList p, #skidList p{
+  font-size: 2vw;
+  font-style: bold;
+  font-style: oblique;
+  font-weight: bold;
+  color: #a60030;
+  text-shadow: 2px 2px #767676;
+  cursor: pointer;
+  padding-top: 1vw;
+  position: relative;
+}
+
+#axleList p:hover, #skidList p:hover{
+  color: #333;
+  cursor: pointer;
+}
+
+#axleList a, #skidList a{
+  color: #333;
+  font-size: 1.5vw;
+  clear:left;
+}
+
+#axleList a:hover, #skidList a:hover{
+  text-decoration: none;
+  color: #a60030;
+  cursor:pointer;
+}
+
+.bin{
+  margin-left: 23vw;
+  top:0vw;
+  padding-top: 1vw;
+  position:absolute;
+  width: 73%;
+}
+
+/* H2 ELEMENT STATING WHAT ITEM IS LISTED BELOW */
+.pageTitleInfo{
+  font-weight: bold;
+  color: #a60030;
+  text-shadow: 2px 2px #000;
+  font-size: 4vw;
+  padding-bottom: 2vw;
+  margin-bottom: 3vw;
+  margin-top: 2vw;
+  padding-bottom: 1vw;
+}
+
+.binContainer{
+  position: absolute;
+  padding-bottom: 1vw;
+}
+
+.mainAndSaying{
+  margin-left: 28vw;
+}
+
+/* MAIN IMAGE FOR EACH PRODUCT */
+.mainBinImg{
+  min-height: 15vw;
+  margin-top: -30vw;
+}
+
+.saying{
+  top: 15vw;
+}
+
+/* PARAGRAPH DESCRIPTION FOR EACH ITEM */
+.description{
+  line-height: 1.5;
+  margin-left: -35vw;
+}
+
+.minipics{
+  text-align: center;
+  margin-left: -35vw;
+}
+
+/* Hiding Elements */
+#TwoTonSingleAxleSection{
+  display: none;
+}
+#ThreeTonAxleSection{
+  display: none;
+}
+#TwoTonStationary{
+  display: none;
+}
+#ThreeTonStationary{
+  display: none;
+}
+#FiveTonStationaryDiv{
+  display: none;
+}
+
+
+/* MEDIA QUERIES VIEWPORT SIZING */
+@media only screen and (max-width: 1825px){
+  .mainAndSaying{
+    margin-left: 34vw;
+  }
+
+  #CreeperSection .minipics{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1550px){
+  .bin{
+    margin-top: -2vw;
+  }
+}
+
+@media only screen and (min-width: 1400px){
+  p{
+    font-size: 1.5vw;
+  }
+  li{
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 1400px){
+  .mainBinImg{
+    margin-top: -35vw;
+  }
+  #binWrapper{
+    padding-bottom: 8vw;
+  }
+}
+
+@media only screen and (max-width: 1325px){
+  .mainAndSaying{
+    margin-left: 42vw;
+  }
+}
+
+
+@media only screen and (max-width: 1250px){
+  .mainAndSaying{
+    margin-left: 42vw;
+  }
+
+  #binWrapper{
+    padding-bottom: 10vw;
+  }
+}
+
+@media only screen and (max-width: 1199px){
+/* Midsection size adjustments */
+  #part1 img{
+    max-width: 20vw;
+  }
+  #part2 img{
+    max-width: 20vw;
+  }
+  #part3 img{
+    max-width: 20vw;
+  }
+
+  #binWrapper{
+    padding-bottom: 12vw;
+  }
+
+  .mainAndSaying{
+    margin-left: 42vw;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  #binWrapper{
+    padding-bottom: 14vw;
+  }
+}
+
+@media only screen and (max-width: 1120px){
+  .mainBinImg{
+    width: 20vw;
+  }
+
+  .bin{
+    margin-left: 30vw;
+    width: 68%;
+  }
+
+  .mainAndSaying{
+    margin-left: 30vw;
+  }
+
+
+  .mainAndSaying{
+    margin-left: 38vw;
+  }
+}
+
+@media only screen and (max-width: 1110px){
+  .bin{
+    width:99%;
+    margin: 0;
+    padding:0;
+  }
+  .pageTitleInfo{
+    text-align: center;
+    width: 99%;
+    padding-left: 0;
+    padding-right:0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mainAndSaying{
+     position: relative;
+     padding-bottom: 2vw;
+     margin-bottom: 2vw;
+  }
+
+  .binContainer{
+    margin-top: -2vw;
+    margin-left: 25vw;
+  }
+
+  .saying{
+    margin-top: -4vw;
+  }
+
+  #binListExpand{
+    width: 16vw;
+  }
+
+  .description{
+    padding-bottom: 5vw;
+  }
+
+  .minipics{
+    text-align: center;
+    position:absolute;
+    margin-left: auto;
+    margin-top: 3vw;
+  }
+
+  #CreeperSection .minipics{
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 1087px){
+  .mainAndSaying{
+    margin-left: 45vw;
+  }
+
+}
+
+@media only screen and (max-width: 1060px){
+  #binWrapper{
+    padding-bottom: 18vw;
+  }
+}
+
+@media only screen and (max-width: 1076px){
+  #headerText{
+    font-size: 3vw;
+  }
+
+  #axleList p, #skidList p{
+    text-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 1025px){
+  #binWrapper{
+    padding-bottom: 20vw;
+  }
+}
+
+
+
+@media only screen and (max-width: 991px){
+  #logo{
+    max-width:30vw;
+  }
+  #headerText{
+    font-size: 3vw;
+  }
+  #logo2{
+    max-width: 25vw;
+  }
+  /* Carousel size adjustment */
+  .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 65%;
+        margin: auto;
+  }
+
+  #binWrapper{
+    padding-bottom: 22vw;
+  }
+}
+
+@media only screen and (max-width: 960px){
+  #binWrapper{
+    padding-bottom: 24vw;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  #CreeperSection{
+    width: 95%;
+  }
+
+  #CreeperMain{
+    margin-left: -10vw;
+  }
+
+  #SayingCreep{
+    margin-left: -8vw;
+  }
+}
+
+@media only screen and (max-width: 927px){
+  #binWrapper{
+    padding-bottom: 10vw;
+  }
+}
+
+@media only screen and (max-width: 830px){
+  #binWrapper{
+    padding-bottom: 12vw;
+  }
+}
+
+@media only screen and (max-width: 790px){
+/* Sizing in the Navigation */
+  li{
+    font-size: 2vw;
+  }
+  h2{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 767px){
+/* Sizing in the Midsection */
+  #part1 img{
+    max-width: 50vw;
+  }
+  #part1{
+    margin-bottom: 3vw;
+  }
+  #part2 img{
+    max-width: 40vw;
+  }
+  #part3 img{
+    max-width: 50vw;
+  }
+  #logo2{
+    margin-top: 1vw;
+  }
+
+  h2{text-align: center;}
+
+  #BinMain p{
+    text-align: center;
+  }
+
+  #CreeperInfo p {
+    text-align: center;
+  }
+
+  #CreeperMain{
+    margin-left: auto;
+  }
+
+  #SayingCreep{
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  p{
+    font-size: 2.5vw;
+  }
+
+  /* Dropdown Button and Navigation Section */
+  div.navigation-menu-button {
+    display:block;
+    float:right;
+    vertical-align: text-bottom;
+  }
+
+  #mySidenav{
+    visibility: hidden;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    transition: 0.3s;
+    text-align: right;
+  }
+
+  .sidenav a:hover {
+    color: #a60030;
+  }
+
+  .sidenav {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  /* Sizing the header text */
+  #headerText{
+    text-shadow: none;
+    font-size: 3vw;
+    float:left;
+  }
+
+  .pageTitleInfo{
+    text-shadow: none;
+  }
+
+  #CarouselBack{
+    position:relative;
+  }
+
+  /* Bin Page Removing binListExpand*/
+  #binListExpand{
+    display: none;
+  }
+
+  .bin{
+    position: static;
+    padding-bottom: 10vw;
+  }
+
+  .binContainer{
+    position: static;
+    margin-left: auto;
+  }
+
+  .mainAndSaying{
+    margin-top: -3vw;
+  }
+
+  .minipics{
+    width: 99%;
+  }
+
+  /* Hiding Elements */
+  #TwoTonSingleAxleSection{
+    display: block;
+  }
+  #ThreeTonAxleSection{
+    display: block;
+  }
+  #TwoTonStationary{
+    display: block;
+  }
+  #ThreeTonStationary{
+    display: block;
+  }
+  #FiveTonStationaryDiv{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 676px){
+  .bin{
+    padding-bottom: 12vw;
+  }
+}
+
+
+@media only screen and (max-width: 590px){
+  p{
+    font-size: 3vw;
+  }
+  h2{
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  #logo{
+    max-width:50vw;
+    margin-left: -5vw;
+  }
+  /* Carousel sizing */
+  .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 90%;
+        margin: auto;
+  }
+
+  .btn-primary{
+    font-size: 2vw;
+  }
+/* Bin Page */
+  .bin{
+    position: static;
+    margin-bottom: 2vw;
+    margin-top:5vw;
+    top:2vw;
+    clear:both;
+  }
+
+  .binContainer{
+    display: block;
+  }
+
+  .pageTitleInfo{
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    clear:both;
+    display: block;
+  }
+
+  .mainBinImg{
+    width: 25vw;
+    padding-bottom: 4vw;
+  }
+
+  .mainAndSaying{
+    margin-left: 50vw;
+  }
+
+  .minipics{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  #FiveTonStationaryDiv{
+    padding-top: 17vw;
+  }
+}
+
+@media only screen and (max-width: 532px){
+  #FiveTonStationaryDiv .mainAndSaying{
+    margin-bottom: 15vw;
+  }
+}
+@media only screen and (max-width: 525px){
+  #TwoTonSingleAxleSection .mainAndSaying{
+    margin-bottom: 5vw;
+  }
+}
+
+
+@media only screen and (max-width: 490px){
+  p{
+    font-size: 3.5vw;
+  }
+  h2{
+    font-size: 3.5vw;
+  }
+  .pageTitle{
+    font-size: 4.5vw;
+    text-shadow: none;
+  }
+  /* Sizing Navigation Menu */
+  /* Links inside the dropdown menu */
+  nav.sitenavigation a:link {
+    padding: 4vw;
+  }
+
+  #CreeperMain{
+    width: 85vw;
+  }
+
+  #headerText{
+    font-size: 4.5vw;
+    text-align: center;
+  }
+
+  li{
+    font-size:3vw;
+  }
+
+  .zoom{
+    margin-bottom: 2vw;
+  }
+
+  /* Bin Page */
+
+
+  .description{
+    margin-left: auto;
+    position: relative;
+  }
+
+  .mainAndSaying{
+    margin-left: auto;
+    /* margin-top: 30vw; */
+    margin-top:-40vw;
+  }
+
+  .mainBinImg{
+    width: auto;
+    height: 50vw;
+  }
+
+  .minipics{
+    margin-top: 45vw;
+    margin-bottom: 15vw;
+    padding-bottom: 5vw;
+    width: auto;
+    height: 10vw;
+    margin-right: auto;
+    position: relative;
+  }
+
+  #CreeperSection .minipics{
+    margin-top: 2vw;
+    margin-bottom: 45vw;
+  }
+
+  .pageTitleInfo{
+    padding-top: 4vw;
+    margin-top: 2vw;
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 477px) {
+  #CreeperSection .minipics{
+    margin-bottom: 40vw;
+    padding-bottom: 5vw;
+  }
+}
+
+@media only screen and (max-width: 462px){
+  #TwoTonAxleSection .mainAndSaying, #ThreeTonAxleSection .mainAndSaying{
+    margin-bottom: 25vw;
+  }
+
+  #ThreeTonStationary .mainAndSaying{
+    margin-bottom: 5vw;
+  }
+
+  #FiveTonStationaryDiv .mainAndSaying{
+    margin-bottom: 18vw;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  #TwoTonSingleAxleSection .mainAndSaying{
+    margin-bottom: 25vw;
+  }
+
+  #ThreeTonStationary .mainAndSaying{
+    margin-bottom: 10vw;
+  }
+}
+
+@media only screen and (max-width: 439px){
+  #FiveTonStationaryDiv .mainAndSaying{
+    margin-bottom: 35vw;
+  }
+
+  #CreeperSection .minipics{
+    margin-bottom: 55vw;
+  }
+}
+
+@media only screen and (max-width: 415px){
+  #TwoTonAxleSection .mainAndSaying{
+    margin-bottom: 35vw;
+  }
+
+  #TwoTonSingleAxleSection .mainAndSaying{
+    margin-bottom: 35vw;
+  }
+
+  #ThreeTonAxleSection .mainAndSaying{
+    margin-bottom: 35vw;
+  }
+
+  #TwoTonStationary .mainAndSaying{
+    margin-bottom: 10vw;
+  }
+  #ThreeTonStationary .mainAndSaying{
+    margin-bottom: 15vw;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #CreeperSection .minipics{
+    margin-bottom: 65vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #CreeperSection .minipics{
+    margin-bottom: 75vw;
+  }
+}
+
+@media only screen and (max-width: 385px){
+  #TwoTonStationary .mainAndSaying{
+    margin-bottom: 35vw;
+  }
+}
+
+@media only screen and (max-width: 351px) {
+  #CreeperSection .minipics{
+    margin-bottom: 75vw;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  /* Sizing Navigation Menu */
+  nav.sitenavigation a:link {
+    padding: 6vw;
+  }
+  /* Increase Readability Font Size */
+  p{
+    font-size: 4vw;
+  }
+  h2{
+    font-size: 4vw;
+  }
+  #headerText{
+    text-align: center;
+    font-size: 4.5vw;
+  }
+  #logo{
+    margin-top: 0;
+  }
+  .pageTitle{
+    font-size: 6vw;
+  }
+
+  .btn-primary{
+    font-size: 2.5vw;
+  }
+
+  li{
+    font-size: 3.5vw;
+  }
+
+  /* Bin Page */
+  .pageTitleInfo{
+    font-size: 6vw;
+  }
+
+  #TwoTonAxleSection .pageTitleInfo{
+    padding-top: 4vw;
+    margin-top: 0;
+  }
+
+  #TwoTonAxleSection .mainAndSaying{
+    margin-bottom: 40vw;
+  }
+
+  #TwoTonSingleAxleSection .mainAndSaying{
+    margin-bottom: 40vw;
+  }
+
+  #ThreeTonAxleSection .mainAndSaying{
+    margin-bottom: 40vw;
+  }
+
+  #TwoTonStationary .mainAndSaying{
+    margin-bottom: 40vw;
+  }
+  #ThreeTonStationary .mainAndSaying{
+    margin-bottom: 20vw;
+  }
+}
+
+@media only screen and (max-width: 341px) {
+  #CreeperSection .minipics{
+    margin-bottom: 85vw;
+  }
+}
+
+@media only screen and (max-width: 322px){
+  .mainBinImg{
+    height: 90vw;
+  }
+
+  .minipics{
+    margin-top: 85vw;
+    margin-bottom: 0vw;
+  }
+
+  #TwoTonAxleSection .mainAndSaying{
+    margin-top: -65vw;
+    margin-bottom: 45vw;
+  }
+
+  #TwoTonSingleAxleSection .mainAndSaying{
+    margin-top: -65vw;
+    margin-bottom: 45vw;
+  }
+
+  #ThreeTonAxleSection .mainAndSaying{
+    margin-top: -65vw;
+    margin-bottom: 45vw;
+  }
+
+  #TwoTonStationary .mainAndSaying{
+    margin-top: -65vw;
+    margin-bottom: 45vw;
+  }
+  #ThreeTonStationary .mainAndSaying{
+    margin-top: -65vw;
+    margin-bottom: 45vw;
+  }
+
+  #FiveTonStationaryDiv{
+    margin-top: -10vw;
+  }
+
+  #FiveTonStationaryDiv .mainAndSaying{
+    margin-top: -65vw;
+    margin-bottom: 45vw;
+  }
+}
+
+@media only screen and (max-width: 303px){
+  #ThreeTonStationary .mainAndSaying{
+    margin-bottom: 75vw;
+  }
+
+  #CreeperSection .minipics{
+    margin-bottom: 95vw;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  /* Sizing Navigation Menu */
+  /* Dropdown Button */
+  div.navigation-menu-button {
+    margin: 0vw;
+  }
+
+  .btn-primary{
+    font-size: 3vw;
+  }
+
+}
+
+@media only screen and (max-width: 297px){
+  #FiveTonStationaryDiv .mainAndSaying{
+    margin-bottom: 75vw;
+  }
+}
